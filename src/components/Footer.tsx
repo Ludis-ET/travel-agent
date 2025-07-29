@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-
 export function Footer() {
   const companyLogos = [
     { name: "Axon", logo: "🏢" },
@@ -55,9 +53,9 @@ export function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
             <div className="lg:col-span-2">
-              <Link to="/" className="flex items-center mb-6">
+              <a href="/" className="flex items-center mb-6">
                 <span className="text-2xl font-bold text-text-dark font-poppins">Jadoo.</span>
-              </Link>
+              </a>
               <p className="text-text-gray leading-relaxed mb-6">
                 Book your trip in minute, get full Control for much longer.
               </p>
@@ -78,9 +76,9 @@ export function Footer() {
             <div>
               <h4 className="font-bold text-text-dark mb-6">Company</h4>
               <ul className="space-y-3">
-                <li><Link to="/#" className="text-text-gray hover:text-text-dark transition-colors">About</Link></li>
-                <li><Link to="/#" className="text-text-gray hover:text-text-dark transition-colors">Careers</Link></li>
-                <li><Link to="/#" className="text-text-gray hover:text-text-dark transition-colors">Mobile</Link></li>
+                <li><a href="/#" className="text-text-gray hover:text-text-dark transition-colors">About</a></li>
+                <li><a href="/#" className="text-text-gray hover:text-text-dark transition-colors">Careers</a></li>
+                <li><a href="/#" className="text-text-gray hover:text-text-dark transition-colors">Mobile</a></li>
               </ul>
             </div>
 
@@ -88,9 +86,9 @@ export function Footer() {
             <div>
               <h4 className="font-bold text-text-dark mb-6">Contact</h4>
               <ul className="space-y-3">
-                <li><Link to="/#" className="text-text-gray hover:text-text-dark transition-colors">Help/FAQ</Link></li>
-                <li><Link to="/#" className="text-text-gray hover:text-text-dark transition-colors">Press</Link></li>
-                <li><Link to="/#" className="text-text-gray hover:text-text-dark transition-colors">Affiliates</Link></li>
+                <li><a href="/#" className="text-text-gray hover:text-text-dark transition-colors">Help/FAQ</a></li>
+                <li><a href="/#" className="text-text-gray hover:text-text-dark transition-colors">Press</a></li>
+                <li><a href="/#" className="text-text-gray hover:text-text-dark transition-colors">Affiliates</a></li>
               </ul>
             </div>
 
@@ -98,9 +96,9 @@ export function Footer() {
             <div>
               <h4 className="font-bold text-text-dark mb-6">More</h4>
               <ul className="space-y-3">
-                <li><Link to="/#" className="text-text-gray hover:text-text-dark transition-colors">Airlinesfees</Link></li>
-                <li><Link to="/#" className="text-text-gray hover:text-text-dark transition-colors">Airline</Link></li>
-                <li><Link to="/#" className="text-text-gray hover:text-text-dark transition-colors">Low fare tips</Link></li>
+                <li><a href="/#" className="text-text-gray hover:text-text-dark transition-colors">Airlinesfees</a></li>
+                <li><a href="/#" className="text-text-gray hover:text-text-dark transition-colors">Airline</a></li>
+                <li><a href="/#" className="text-text-gray hover:text-text-dark transition-colors">Low fare tips</a></li>
               </ul>
             </div>
           </div>

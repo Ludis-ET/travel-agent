@@ -1,4 +1,4 @@
-import chikua from "./assets/hero.png"
+import chikua from "../assets/hero.png"
 
 export function HeroSection() {
   return (
@@ -30,12 +30,12 @@ export function HeroSection() {
             </div>
 
             <div className="flex items-center space-x-6">
-              <button className="bg-brand-orange text-white px-8 py-4 rounded-lg font-medium hover:bg-opacity-90 transition-colors duration-200 shadow-lg">
+              <button className="bg-orange-300 text-white px-8 py-4 rounded-lg font-medium hover:bg-opacity-90 transition-colors duration-200 shadow-lg">
                 Find out more
               </button>
 
-              <button className="flex items-center space-x-3 text-text-gray hover:text-text-dark transition-colors duration-200">
-                <div className="w-12 h-12 bg-brand-pink rounded-full flex items-center justify-center shadow-lg">
+              <button className="flex items-center space-x-3 text-gray hover:text-dark transition-colors duration-200">
+                <div className="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center shadow-lg">
                   <svg
                     className="w-5 h-5 text-white ml-1"
                     fill="currentColor"
